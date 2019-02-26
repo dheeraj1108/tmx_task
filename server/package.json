@@ -1,0 +1,23 @@
+{
+  "name": "Trading_Application",
+  "version": "1.0.0",
+  "description": "Dashboard API containing trade data.",
+  "main": "index.js",
+  "scripts": { 
+	"start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Dhiraj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "athena-client": "^2.4.0",
+    "aws-data-lake-sdk": "^1.0.1",
+    "aws-sdk": "^2.408.0",
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mocker-data-generator": "^2.6.6",
+    "nodemon": "^1.18.10",
+    "promise": "^8.0.2"
+  }
+}
